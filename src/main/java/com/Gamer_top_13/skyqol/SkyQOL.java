@@ -1,5 +1,6 @@
 package com.Gamer_top_13.skyqol;
 
+import com.Gamer_top_13.skyqol.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -23,6 +24,8 @@ public class SkyQOL
     public SkyQOL()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
