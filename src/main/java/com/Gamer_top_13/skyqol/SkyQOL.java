@@ -1,5 +1,6 @@
 package com.Gamer_top_13.skyqol;
 
+import com.Gamer_top_13.skyqol.item.ModCreativeModeTabs;
 import com.Gamer_top_13.skyqol.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,12 +39,14 @@ public class SkyQOL
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-
+        if (event.getTab() == ModCreativeModeTabs.SKYQOLTAB) {
+            event.accept(ModItems.RAW_ZIRCON);
+            event.accept(ModItems.ZIRCON);
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
