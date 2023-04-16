@@ -1,5 +1,10 @@
 {
   "item.skyqol.zircon": "Zircon",
   "item.skyqol.raw_zircon": "Raw Zircon",
+  "block.skyqol.zircon_block": "Block of Zircon",
+  "block.skyqol.zircon_ore": "Zircon Ore",
+  "block.skyqol.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.skyqol.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.skyqol.endstone_zircon_ore": "Endstone Zircon Ore",
   "creativemodetab.skyqol_tab": "SkyQOL Tab"
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "skyqol:deepslate_zircon_ore",
+    "skyqol:netherrack_zircon_ore",
+    "skyqol:endstone_zircon_ore",
+    "skyqol:zircon_block"
+  ]
+}

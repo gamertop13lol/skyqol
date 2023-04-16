@@ -1,9 +1,9 @@
 package com.Gamer_top_13.skyqol;
 
-import com.Gamer_top_13.skyqol.item.ModCreativeModeTabs;
+import com.Gamer_top_13.skyqol.block.ModBlocks;
 import com.Gamer_top_13.skyqol.item.ModItems;
+import com.Gamer_top_13.skyqol.SetupCreativeTabs;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -14,6 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import static com.Gamer_top_13.skyqol.SetupCreativeTabs.SetupTabs;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SkyQOL.MOD_ID)
@@ -27,6 +29,7 @@ public class SkyQOL
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -43,10 +46,7 @@ public class SkyQOL
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-        if (event.getTab() == ModCreativeModeTabs.SKYQOLTAB) {
-            event.accept(ModItems.RAW_ZIRCON);
-            event.accept(ModItems.ZIRCON);
-        }
+        SetupTabs(event);
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
