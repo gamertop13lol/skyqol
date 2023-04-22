@@ -1,10 +1,18 @@
 {
-  "item.skyqol.zircon": "Zircon",
-  "item.skyqol.raw_zircon": "Raw Zircon",
-  "block.skyqol.zircon_block": "Block of Zircon",
-  "block.skyqol.zircon_ore": "Zircon Ore",
-  "block.skyqol.deepslate_zircon_ore": "Deepslate Zircon Ore",
-  "block.skyqol.netherrack_zircon_ore": "Netherrack Zircon Ore",
-  "block.skyqol.endstone_zircon_ore": "Endstone Zircon Ore",
-  "creativemodetab.skyqol_tab": "SkyQOL Tab"
+  "skyqol.help.title": "[SkyQOL] Help:",
+  "skyqol.help.savc": "- savc <name>: saves your coordinates, to retrieve them later",
+  "skyqol.help.savcother": "- savcother <name> <x> <y> <z>: saves specified coordinates",
+  "skyqol.help.getc": "- getc <name>: get saved coords",
+  "skyqol.help.delc": "- delc <name>: deletes saved coords",
+
+  "skyqol.command.nea": "[SkyQOL] Error: Not enough arguments",
+
+  "skyqol.command.savc.nea": "[SkyQOL] savc requires <name>",
+
+  "skyqol.command.savcother.nea": "[SkyQOL] savcother requires <name>, <x>, <y>, <z>",
+
+  "skyqol.command.getc.nea": "[SkyQOL] getc requires <name>",
+  "skyqol.command.getc.out": "[SkyQOL] %s: %s %s %s (getc)",
+
+  "skyqol.command.delc.nea": "[SkyQOL] delc requires <name>"
 }
