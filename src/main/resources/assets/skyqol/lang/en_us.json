@@ -4,15 +4,22 @@
   "skyqol.help.savcother": "- savcother <name> <x> <y> <z>: saves specified coordinates",
   "skyqol.help.getc": "- getc <name>: get saved coords",
   "skyqol.help.delc": "- delc <name>: deletes saved coords",
+  "skyqol.help.allc": "- allc: lists your saved coordinates",
 
   "skyqol.command.nea": "[SkyQOL] Error: Not enough arguments",
 
   "skyqol.command.savc.nea": "[SkyQOL] savc requires <name>",
+  "skyqol.command.savc.confirm": "[SkyQOL] %s (%s %s %s) saved! (savc)",
 
   "skyqol.command.savcother.nea": "[SkyQOL] savcother requires <name>, <x>, <y>, <z>",
+  "skyqol.command.savcother.confirm": "[SkyQOL] %s (%s %s %s) saved! (savcother)",
 
   "skyqol.command.getc.nea": "[SkyQOL] getc requires <name>",
   "skyqol.command.getc.out": "[SkyQOL] %s: %s %s %s (getc)",
 
-  "skyqol.command.delc.nea": "[SkyQOL] delc requires <name>"
+  "skyqol.command.delc.nea": "[SkyQOL] delc requires <name>",
+  "skyqol.command.delc.confirm": "[SkyQOL] %s (%s %s %s) deleted! (delc)",
+
+  "skyqol.command.allc.title": "[SkyQOL] Listing saved coordinates (allc):",
+  "skyqol.command.allc.out": "- %s (%s %s %s)"
 }
