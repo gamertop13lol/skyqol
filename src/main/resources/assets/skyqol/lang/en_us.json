@@ -24,5 +24,5 @@
   "skyqol.command.allc.out": "- %s (%s %s %s)",
 
   "skyqol.command.setkey.nea": "[SkyQOL] setkey requires <apikey>",
-  "skyqol.command.setkey.confirm": "[SkyQOL] Key set! (setkey)",
+  "skyqol.command.setkey.confirm": "[SkyQOL] Key set! (setkey)"
 }
