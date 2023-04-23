@@ -21,5 +21,8 @@
   "skyqol.command.delc.confirm": "[SkyQOL] %s (%s %s %s) deleted! (delc)",
 
   "skyqol.command.allc.title": "[SkyQOL] Listing saved coordinates (allc):",
-  "skyqol.command.allc.out": "- %s (%s %s %s)"
+  "skyqol.command.allc.out": "- %s (%s %s %s)",
+
+  "skyqol.command.setkey.nea": "[SkyQOL] setkey requires <apikey>",
+  "skyqol.command.setkey.confirm": "[SkyQOL] Key set! (setkey)",
 }

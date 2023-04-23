@@ -5,10 +5,15 @@ import net.minecraft.client.gui.Gui;
 import net.minecraft.network.chat.Component;
 import com.Gamer_top_13.skyqol.dosth.CoordUtils;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+import static com.Gamer_top_13.skyqol.dosth.BazaarStuff.gexpies;
 import static com.Gamer_top_13.skyqol.dosth.CoordUtils.*;
+import static com.Gamer_top_13.skyqol.dosth.SetApiKey.setkey;
 
 public class SkyQOLCommand {
-    public static void splitAndInterpret(String text) {
+    public static void splitAndInterpret(String text) throws URISyntaxException, IOException, InterruptedException {
         String[] args = text.split(" ");
         if (args.length >= 2) {
             switch (args[1]) {
@@ -33,6 +38,7 @@ public class SkyQOLCommand {
                 case "getc" -> gui.getChat().addMessage(Component.translatable("skyqol.help.getc"));
                 case "savcother" -> gui.getChat().addMessage(Component.translatable("skyqol.help.savcother"));
                 case "delc" -> gui.getChat().addMessage(Component.translatable("skyqol.help.delc"));
+                case "allc" -> gui.getChat().addMessage(Component.translatable("skyqol.help.allc"));
             }
         } else {
             gui.getChat().addMessage(Component.translatable("skyqol.help.title"));

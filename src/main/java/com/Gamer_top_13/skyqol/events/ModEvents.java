@@ -11,9 +11,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.IModBusEvent;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+
 public class ModEvents {
     @SubscribeEvent
-    public void chatMessage(ClientChatEvent event) {
+    public void chatMessage(ClientChatEvent event) throws URISyntaxException, IOException, InterruptedException {
         if (event.getOriginalMessage().startsWith(".skyqol")) {
             event.setCanceled(true);
             SkyQOLCommand.splitAndInterpret(event.getOriginalMessage());
