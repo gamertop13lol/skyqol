@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skyqol",
+	"version": "${version}",
+	"name": "skyQOL",
+	"description": "A Hypixel Skyblock mod made by a gamer learning to use java",
+	"authors": [
+		"Gamer_top_13"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/skyqol/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gamer_top_13.skyqol.SkyQOL"
+		],
+		"client": [
+			"net.gamer_top_13.skyqol.SkyQOLClient"
+		],
+		"fabric-datagen": [
+			"net.gamer_top_13.skyqol.SkyQOLDataGenerator"
+		]
+	},
+	"mixins": [
+		"skyqol.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
