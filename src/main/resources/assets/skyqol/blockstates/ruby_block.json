@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "skyqol:block/ruby_block",
+      "texture": "skyqol:block/ruby_block"
+    }
+  }
+}

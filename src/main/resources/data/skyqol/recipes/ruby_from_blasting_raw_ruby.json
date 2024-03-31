@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 4,
+  "group": "ruby",
+  "ingredient": {
+    "item": "skyqol:raw_ruby"
+  },
+  "result": "skyqol:ruby"
+}

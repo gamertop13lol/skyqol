@@ -1,4 +1,8 @@
 {
   "item.skyqol.ruby": "Ruby",
-  "item.skyqol.raw_ruby": "Raw Ruby"
+  "item.skyqol.raw_ruby": "Raw Ruby",
+  "itemgroup.skyqol.ruby": "Ruby Group",
+
+  "block.skyqol.ruby_block": "Block of Ruby",
+  "block.skyqol.raw_ruby_block": "Block of Raw Ruby"
 }
