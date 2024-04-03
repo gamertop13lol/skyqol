@@ -1,0 +1,11 @@
+{
+  "replace": "false",
+  "values": [
+    "skyqol:ruby_block",
+    "skyqol:raw_ruby_block",
+    "skyqol:ruby_ore",
+    "skyqol:deepslate_ruby_ore",
+    "skyqol:nether_ruby_ore",
+    "skyqol:end_stone_ruby_ore"
+  ]
+}

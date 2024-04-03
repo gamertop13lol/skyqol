@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "skyqol:block/end_stone_ruby_ore",
+      "texture": "skyqol:block/end_stone_ruby_ore"
+    }
+  }
+}

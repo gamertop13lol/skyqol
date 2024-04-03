@@ -1,8 +1,18 @@
 {
   "item.skyqol.ruby": "Ruby",
   "item.skyqol.raw_ruby": "Raw Ruby",
+  "item.skyqol.metal_detector": "Metal Detector",
   "itemgroup.skyqol.ruby": "Ruby Group",
 
   "block.skyqol.ruby_block": "Block of Ruby",
-  "block.skyqol.raw_ruby_block": "Block of Raw Ruby"
+  "block.skyqol.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.skyqol.ruby_ore": "Ruby Ore",
+  "block.skyqol.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.skyqol.nether_ruby_ore": "Nether Ruby Ore",
+  "block.skyqol.end_stone_ruby_ore": "Endstone Ruby Ore",
+
+  "skyqol.metaldetector.found": "Found: ",
+  "skyqol.metaldetector.block": "   %s at y=%d",
+  "skyqol.metaldetector.nothingfound": "No valuables were found!"
 }
